@@ -5,6 +5,9 @@ class QuackBehavior {
     noquack() {
         console.log('------');
     }
+    quick() {
+        console.log('quack quack');
+    }
 }
 
 module.exports = QuackBehavior;

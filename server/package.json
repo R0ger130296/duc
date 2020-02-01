@@ -10,12 +10,12 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/BluDemons/duck.git"
+        "url": "https://github.com/R0ger130296/duc"
     },
     "keywords": [
         "test"
     ],
-    "author": "juan",
+    "author": "Roger",
     "license": "MIT",
     "dependencies": {
         "body-parser": "^1.19.0",

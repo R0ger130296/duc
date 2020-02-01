@@ -10,9 +10,20 @@ app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
-app.get('/Fly', (req, res) => {
+app.get('/mallar', (req, res) => {
     const patos = new Patos();
-    res.send(patos.mallar())
+    console.log("MALLAR");
+    console.log(patos.mallar());
+});
+app.get('/caucho', (req, res) => {
+    const patos = new Patos();
+    console.log("CAUCHO");
+    console.log(patos.patoCaucho());
+});
+app.get('/metal', (req, res) => {
+    const patos = new Patos();
+    console.log("METAL");
+    console.log(patos.patoMecanico());
 });
 
 app.listen(port, () => {
